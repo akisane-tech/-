@@ -1,0 +1,23 @@
+{
+  "width": <500>, 
+  "height": <500>, 
+  "meshes": [ 
+    {
+      "type": "spine", // spine动画
+      "skeletonFileName": <c250_00.skel>, 
+      "atlasFileName": <c250_00.atlas>, 
+      "animationName": <idle>, 
+      "scale": <1>, 
+      "position": { 
+        "x": <0>,
+        "y": <0>,
+        "z": <-1200> 
+      },
+      "cursorPress": {
+        "animationName": <action>, 
+        "boneName": <root>, 
+        "maxFollowDistance": <200> 
+      }
+    }
+  ]
+}
