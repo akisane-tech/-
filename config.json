@@ -1,23 +1,35 @@
 {
-  "width": <500>, 
-  "height": <500>, 
-  "meshes": [ 
+  "width": 2048,
+  "height": 2048,
+  "meshes": [
     {
-      "type": "spine", // spine动画
-      "skeletonFileName": <c250_00.skel>, 
-      "atlasFileName": <c250_00.atlas>, 
-      "animationName": <idle>, 
-      "scale": <1>, 
-      "position": { 
-        "x": <0>,
-        "y": <0>,
-        "z": <-1200> 
-      },
-      "cursorPress": {
-        "animationName": <action>, 
-        "boneName": <root>, 
-        "maxFollowDistance": <200> 
+      "type": "spine",
+      "skeletonFileName": "Road_background.skel",
+      "atlasFileName": "Road_background.atlas",
+      "animationName": "Idle_Default",
+      "scale": 1,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -1200
       }
-    }
+    },
+    {
+      "type": "spine",
+      "skeletonFileName": "Big_head.skel",
+      "atlasFileName": "Big_head.atlas",
+      "animationName": "Idle_Default",
+      "scale": 1,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -1000
+      },
+      "cursorFollow": {
+        "animationName": "Animation_123",
+        "boneName": "Move_Head",
+        "maxFollowDistance": 100
+      }
+    },
   ]
 }
